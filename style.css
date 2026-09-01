@@ -22,6 +22,7 @@ body {
   font-size: 20px;
   text-decoration:none;
   display: flex;
+  background-color:  #7600bc;
 }
 
 .topmenu:hover {
