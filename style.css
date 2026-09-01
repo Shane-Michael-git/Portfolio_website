@@ -30,6 +30,7 @@ body {
 }
 
 .topdiv {
+  position: fixed;
   float: right;
   padding-right: 1cm;
 }
