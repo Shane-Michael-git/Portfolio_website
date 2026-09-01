@@ -5,23 +5,20 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
-  padding-bottom: 1cm;
-  margin-left:-1cm;
-  margin-right:-1cm;
-  margin-top:-1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
-  height: 5mm;
- }
+  background-color: #7600bc;
+  /* Use flexbox to align profile name on left and navigation links on right */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1cm;
 
 .topmenu {
   color: lightgray;
-  margin: 10px;
-  padding: 20px;
+  padding: 8px 15px; /* Replaced large padding/margins with inline-friendly spacing */
   font-size: 20px;
-  text-decoration:none;
-  background-color:  #7600bc;
+  text-decoration: none;
+  background-color: #7600bc;
+  display: inline-block;
 }
 
 .topmenu:hover {
@@ -31,8 +28,10 @@ body {
 }
 
 .topdiv {
-  float: right;
-  padding-right: 1cm;
+  /* Displays links in a horizontal row */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .profile_name {
