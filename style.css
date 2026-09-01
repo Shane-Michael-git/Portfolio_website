@@ -6,12 +6,19 @@ body {
 
 #home {
   background-color: #7600bc;
-  /* Use flexbox to align profile name on left and navigation links on right */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1cm;
+  padding-bottom: 1cm;
+  margin-left: -1cm;
+  margin-right: -1cm;
+  margin-top: -1cm;
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  height: 5mm;
 
+  /* Added to make the navigation bar sticky */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .topmenu {
   color: lightgray;
   padding: 8px 15px; /* Replaced large padding/margins with inline-friendly spacing */
