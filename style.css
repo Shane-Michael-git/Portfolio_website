@@ -35,8 +35,8 @@ body {
   position: fixed;
   float: right;
   padding-right: 1cm;
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  justify-content: end;
 }
 
 .profile_name {
