@@ -32,7 +32,6 @@ body {
 }
 
 .topdiv {
-  position: sticky;
   float: right;
   padding-right: 1cm;
   display: grid;
