@@ -31,10 +31,10 @@ body {
 
 .topdiv {
   position: fixed;
-  background-color:  #7600bc;
   float: right;
   padding-right: 1cm;
-  align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .profile_name {
